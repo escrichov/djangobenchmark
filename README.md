@@ -2,10 +2,8 @@
 
 0. Setup Ubuntu
 ```
-apt update
-apt install -y pipenv
-git clone https://github.com/escrichov/djangobenchmark
-cd djangobenchmark
+apt update && apt install -y pipenv
+git clone https://github.com/escrichov/djangobenchmark && cd djangobenchmark
 ```
 
 1. Install
