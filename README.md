@@ -1,5 +1,13 @@
 # djangobenchmark
 
+0. Setup Ubuntu
+```
+apt update
+apt install -y pipenv
+git clone https://github.com/escrichov/djangobenchmark
+cd djangobenchmark
+```
+
 1. Install
 
 ```
@@ -9,7 +17,7 @@ pipenv install
 2. Start server
 
 ```
-./bin/gunicorn_server.sh
+./bin/server_gunicorn.sh
 ```
 
 3. Run Benchmark
